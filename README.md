@@ -11,4 +11,8 @@ For example:
 You should also include the `pico_sdk_import.cmake` file in your project.
 If you want to use the optional pico_extras, then include it as well.
 
+Also, it seems you need to put the `PICO_SDK_PATH` in the `CMake` settings as well.
 
+If it doesn't initially work, try deleting the `cmake-build-debug` folder.
+
+![img.png](img.png)
